@@ -27,6 +27,7 @@ public class RSATest {
 		driver.get("http://rahulshettyacademy.com");
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getTitle());
+		// this should be closing command
 		driver.close();
 		
 	
